@@ -1,0 +1,10 @@
+{"connector.class":"io.confluent.kafka.connect.datagen.DatagenConnector",
+"quickstart":"orders",
+"tasks.max":"1",
+"value.converter.schemas.enable":"false",
+"name":"demo-orders-generator-1",
+"kafka.topic":"demo.orders",
+"value.converter":"org.apache.kafka.connect.json.JsonConverter",
+"max.interval":"2000",
+"key.converter":"org.apache.kafka.connect.storage.StringConverter",
+"iterations":"200000"}

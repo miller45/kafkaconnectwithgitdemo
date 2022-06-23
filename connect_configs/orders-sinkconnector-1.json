@@ -1,0 +1,7 @@
+{"connector.class":"org.apache.kafka.connect.file.FileStreamSinkConnector",
+"file":"/tmp/orders_file.json",
+"tasks.max":"1",
+"topics":"demo.orders",
+"name":"orders-sinkconnector-1",
+"value.converter":"org.apache.kafka.connect.storage.StringConverter",
+"key.converter":"org.apache.kafka.connect.storage.StringConverter"}
